@@ -21,11 +21,12 @@ let request = obj => {
 };
 
 function os() {
-    if (navigator.platform.indexOf("Win") != -1) return "Windows";
+    //if (navigator.platform.indexOf("Win") != -1) return "Windows";
     //if (navigator.platform.indexOf("Mac") != -1) return "Mac";
     //if (navigator.platform.indexOf("X11") != -1) return "linux";
-    if (navigator.platform.indexOf("Linux") != -1) return "Linux";
-    return "unknow";
+    //if (navigator.platform.indexOf("Linux") != -1) return "Linux";
+    //return "unknow";
+    return "Windows";
 }
 
 
