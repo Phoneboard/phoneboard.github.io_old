@@ -251,6 +251,16 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: -20px;
       background: #ff3366; }
 
+  #hero pre {
+    max-width: 740px;
+    margin: auto;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    padding-top: 28px;
+    margin-bottom: 0;
+    position: relative; }
 #intro {
   margin-top: 56px;
   margin-bottom: 140px;
